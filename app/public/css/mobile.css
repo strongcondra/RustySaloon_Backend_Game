@@ -1,0 +1,312 @@
+.page-content {
+  width: 100vw;
+  padding: 5px;
+  padding-top: 90px;
+}
+
+/* 
+ *
+ * HEADER
+ *
+ */
+.header--mobile {
+  visibility: visible;
+}
+
+.header {
+  width: calc(100vw);
+  justify-content: space-between;
+}
+
+.header__item {
+}
+
+.nav {
+  box-shadow: 4px 0px 6px 1px rgba(0, 0, 0, 0.71);
+}
+
+.button--deposit {
+  border-radius: 7px;
+}
+/* 
+ *
+ * CHAT
+ *
+ */
+.chat {
+  height: calc(100vh - 75px);
+  bottom: 0;
+  top: auto;
+  max-width: 350px;
+  width: auto;
+  box-shadow: -4px 0px 6px 1px rgba(0, 0, 0, 0.71);
+}
+
+.chat {
+  transform: scaleX(0);
+  transform-origin: right;
+  transition: transform 0.26s ease;
+}
+
+.chat.visible {
+  transform: scaleX(1);
+}
+
+/* 
+ *
+ * ROULETTE
+ *
+ */
+
+.roulette {
+}
+
+.past-rolls {
+  flex-direction: column;
+  align-items: center;
+}
+
+.previous-rolls {
+  margin-top: 10px;
+}
+
+.previous-rolls .roll-circle {
+  width: 28px;
+  height: 28px;
+  border-radius: 14px;
+}
+.win-bet-container {
+  margin: 5px;
+}
+
+.projected-win {
+  padding: 15px;
+  font-size: 13px;
+}
+
+.betting-bar {
+width: auto;
+}
+
+.win-bet-display__footer {
+  width: 100%;
+  margin-top: 40px;
+  display: flex;
+  border: none;
+}
+
+.win-bet-display__footer .roll-circle {
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+}
+
+.win-bet-display__container {
+  flex: 1;
+  padding: 15px;
+  padding-top: 0;
+}
+
+.win-bet-display__label-value-container {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid rgb(50, 50, 50);
+}
+
+/* 
+ *
+ * CRASH
+ *
+ */
+
+.crash {
+}
+.crash__screen {
+  width: 100%;
+  height: 500px;
+}
+
+.crash__details {
+  max-width: unset;
+  margin-top: 10px;
+}
+
+/*
+ *
+ *  FT
+ *
+ */
+.FT {
+  padding: 0;
+}
+
+.FT__spinner-container {
+  width: 100vw;
+  height: 100vw;
+  max-width: 400px;
+  max-height: 400px;
+}
+
+.FT__top {
+  text-align: center;
+}
+
+.FT__bars {
+  margin-bottom: 10px;
+}
+
+.FT .bet-amount {
+  width: 100%;
+  margin: 10px 0;
+}
+
+.FT .bet-amount .coin-input-container {
+  flex: 1;
+}
+
+.FT .win-bet-container {
+  flex-wrap: wrap;
+}
+
+.FT .win-bet-display {
+  width: calc(50% - 10px);
+  flex: none;
+  margin: 0;
+  margin-right: 5px;
+  margin-bottom: 30px;
+}
+
+.FT .win-bet-display__footer {
+  margin-top: 0;
+}
+
+/*
+ *
+ *  DICE
+ *
+ */
+.dice {
+  padding: 0;
+}
+
+.dice__details {
+  padding: 10px;
+}
+
+/*
+ *
+ *  TOWER
+ *
+ */
+.tower {
+  flex-direction: column;
+  padding: 0;
+}
+
+.tower__details {
+  margin-bottom: 15px;
+}
+
+/*
+ *
+ * Profile
+ *
+ */
+.profile__head-user-tradelink-container {
+  flex-direction: column;
+}
+
+.profile__head-user-tradelink-container > * {
+  margin: 5px 0;
+  width: 100%;
+}
+
+.profile__head .input {
+  max-width: unset;
+}
+
+/* 
+ *
+ *  Withdraw/Deposit
+ *
+ */
+
+.withdraw-deposit {
+  margin: 0;
+  flex-direction: column;
+  display: block;
+}
+
+.withdraw-deposit .withdraw {
+  width: 100%;
+  height: 400px;
+  margin: 0;
+}
+
+.withdraw-deposit .input {
+  margin: 0;
+  margin-bottom: 10px;
+  display: block;
+  width: 100%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.withdraw-deposit .inventory {
+  overflow-y: unset;
+  padding: 0;
+}
+
+.withdraw-deposit .inventory-item {
+  width: calc(50% - 10px);
+}
+
+.inventory-items {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+/* 
+ *
+ * Affiliates
+ *
+ */
+
+.affiliates__header {
+  flex-direction: column;
+  padding: 0;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.affiliates__header-item,
+.affiliates__header-item.right {
+  margin: 0;
+  padding: 0;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+/* 
+ *
+ * MISC
+ *
+ */
+
+.hide-on-mobile {
+  display: none;
+}
+.show-on-mobile {
+  display: block !important;
+}
+
+.show-on-mobile--flex {
+  display: flex !important;
+}
+
+.betting-list-item {
+  margin-left: 0;
+}

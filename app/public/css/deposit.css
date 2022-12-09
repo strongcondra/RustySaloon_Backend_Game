@@ -1,0 +1,261 @@
+.deposit .space {
+    margin: 20px;
+}
+
+.deposit .grey {
+    color: #8B8E93;
+    margin: 5px 0px;
+}
+
+.deposit .boxes {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 15px;
+}
+
+.deposit .box {
+    width: 140px;
+    height: 150px;
+    background-color: #131820;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    border-radius: 8px;
+    border: 1px solid rgba(128, 128, 128, 0.274);
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.deposit .box img {
+    width: 70px;
+    height: 70px;
+    margin: auto;
+}
+
+.deposit .box .line {
+    width: 100%;
+    height: 1px;
+    background-image: linear-gradient(270deg, #FF3413 0%, #A72D19 100%, #A72D19 100%);
+}
+
+.deposit .box .bottom {
+    display: flex;
+    justify-content: space-between;
+    height: 30px;
+    align-items: center;
+    margin: 0px 5px;
+}
+
+.deposit .box .bottom div:nth-child(1) {
+    font-size: 12px;
+}
+
+.deposit .box .bottom div:nth-child(2) {
+    background: rgba(11, 146, 62, 0.2);
+    padding: 3px;
+}
+
+.deposit .box .bottom div:nth-child(2) div {
+    color: #11A347;
+    font-size: 10px;
+}
+
+.deposit .cdetails {
+    min-width: 777px;
+    margin-top: 25px;
+}
+
+.deposit .cdetails .text {
+    font-size: 24px;
+}
+
+.deposit .cdetails .cbox {
+    background-color: #131820;
+    width: 777px;
+    height: 150px;
+    border-radius: 8px;
+    margin-top: 8px;
+    border: 1px solid rgba(128, 128, 128, 0.274);
+    align-items: center;
+    display: flex;
+    padding-left: 20px;
+}
+
+.deposit .cdetails .cbox > img {
+    width: 107px;
+    height: 107px;
+}
+
+.deposit .cdetails .cbox .texts {
+    display: flex;
+    align-items: left;
+    width:50%;
+    padding: 15px;
+    flex-direction: column;
+}
+
+.deposit .cdetails .cbox .texts > div {
+    font-size: 10px;
+    margin-bottom: 5px;
+}
+
+.deposit .cdetails .cbox .grey {
+    font-size: 13px !important;
+    color: rgba(139, 142, 147, 1);
+    font-weight: bold;
+}
+
+.deposit .cdetails .cbox .inputted {
+    display: flex;
+}
+
+.deposit .cdetails .cbox .inputted input[type="text"] {
+    width: 299px;
+    height: 35px;
+    background-color: rgba(18, 22, 30, 1);
+    outline: 0;
+    border: 1px solid rgba(128, 128, 128, 0.274);
+    color: white;
+    font-size: 15px;
+    padding-right: 35px;
+    padding-left: 10px;
+}
+
+.deposit .cdetails .cbox .inputted img {
+    margin-left: -27px;
+    cursor: pointer;
+}
+
+.deposit .cdetails .cbox .left > .text {
+    border-bottom: 1px solid rgba(128, 128, 128, 0.274);
+    width: 100%;
+    text-align: center;
+}
+
+.deposit .cdetails .cbox .left {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    margin: auto;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 45%;
+    border: 1px solid rgba(128, 128, 128, 0.274);
+    padding: 0px 8px;
+}
+
+.deposit .cdetails .cbox .left .data {
+    display: flex;
+    font-size: 11px;
+    flex-direction: column;
+    width: 100%;
+}
+
+.deposit .cdetails .cbox .left .data .pheader {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    color: rgba(255, 255, 255, 0.493);
+}
+
+.deposit .cdetails .cbox .left .data .pheader > div {
+    width: 33.33%;
+    text-align: center;
+}
+
+.deposit .cdetails .cbox .left .data .hdeposit {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.deposit .cdetails .cbox .left .data .hdeposit > div {
+    width: 33.33%;
+    text-align: center;
+    height: 16px;
+    overflow: hidden;
+}
+
+.deposit .gcinput {
+    width: 296px;
+    height: 43px;
+    background-color: #12161E;
+    outline: 0;
+    border: 1px solid rgba(128, 128, 128, 0.274);
+    color: rgba(136, 138, 142, 1);
+    font-size: 14px;
+    padding-top: 15px;
+    padding-left: 5px;
+    padding-right: 65px;
+}
+
+.deposit .gcInput .gcText {
+    position: relative;
+    font-size: 12px;
+    margin-left: 5px;
+    margin-top: 0px;
+    margin-bottom: -55px;
+}
+
+.deposit .gcInput .gcRedeem {
+    position: relative;
+    margin-left: 240px;
+    width: 45px;
+    height: 31px;
+    background: linear-gradient(
+270deg
+, #0B923E 0%, #097532 100%);
+    border-radius: 2.37624px 0px 0px 2.37624px;
+    cursor: pointer;
+    margin-top: 40px;
+    margin-bottom: -36px;
+}
+
+.deposit .gcInput .gcRedeem:hover {
+    background: linear-gradient(270deg, #097532 0%, #0B923E 100%);
+}
+
+.deposit .gcInput .gcRedeem .txt {
+    font-size: 10px;
+    font-weight: 700;
+    text-align: center;
+    line-height: 3;
+}
+
+.deposit .gcChoose {
+    display: flex;
+    margin-top: 15px;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.deposit .gcChoose .card {
+    background-color: #131820;
+    width: 180px;
+    height: 150px;
+    margin-right: 15px;
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    border: 1px solid rgba(128, 128, 128, 0.274);
+    cursor: pointer;
+}
+
+.deposit .gcChoose .card > img {
+    width: 130px;
+}
+
+.deposit .gcChoose .card div {
+    font-size: 12px;
+    text-align: center;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.deposit .gctext {
+    font-size: 24px;
+}

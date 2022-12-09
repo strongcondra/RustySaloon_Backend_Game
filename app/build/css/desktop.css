@@ -1,0 +1,99 @@
+.page-content {
+  width: calc(100vw - 350px);
+  padding: 15px;
+  padding-top: 90px;
+}
+
+/* 
+ *
+ * HEADER
+ *
+ */
+.header--desktop {
+  visibility: visible;
+}
+
+.header {
+  width: calc(100vw - 350px);
+  padding: 10px;
+}
+
+.header__item {
+  margin-right: 40px;
+}
+
+.header__item--withdraw {
+  margin-right: 10px;
+}
+
+.header__item--deposit {
+  margin-right: 10px;
+}
+
+.header__item--side-part {
+  margin-left: auto;
+}
+
+/* 
+ *
+ * CHAT
+ *
+ */
+.chat {
+  height: calc(100vh);
+}
+
+/* Disable chat from collapsing on desktop */
+.chat.hidden {
+  display: flex !important;
+}
+
+/* 
+ *
+ * ROULETTE
+ *
+ */
+
+.roulette {
+}
+
+/*
+ *
+ *  FT
+ *
+ */
+.FT__top {
+  position: relative;
+}
+.FT__bars {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+.FT__spinner-container {
+  margin-bottom: -50px;
+}
+
+.tower {
+  padding-top: 100px;
+}
+
+/*
+ *
+ *  TOWER
+ *
+ */
+.tower__details {
+  margin-right: 15px;
+}
+
+/* 
+ *
+ * MISC
+ *
+ */
+
+.hidden-on-desktop {
+  display: none;
+}
